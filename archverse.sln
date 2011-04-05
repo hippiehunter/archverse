@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "archverse_core", "archverse_core\archverse_core.vcxproj", "{ED91BC1B-C065-419D-B6DD-46A9C85A4B58}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "archverse_core_test", "archverse_core_test\archverse_core_test.vcxproj", "{5FA2B65E-F3A5-475D-AF3F-554A8A631037}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "archverse_python_wrapper", "archverse_python_wrapper\archverse_python_wrapper.vcxproj", "{31110A9C-B2B8-4D08-8EC4-A0B1B6609CA9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ED91BC1B-C065-419D-B6DD-46A9C85A4B58} = {ED91BC1B-C065-419D-B6DD-46A9C85A4B58}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED91BC1B-C065-419D-B6DD-46A9C85A4B58}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ED91BC1B-C065-419D-B6DD-46A9C85A4B58}.Debug|Win32.Build.0 = Debug|Win32
+		{ED91BC1B-C065-419D-B6DD-46A9C85A4B58}.Release|Win32.ActiveCfg = Release|Win32
+		{ED91BC1B-C065-419D-B6DD-46A9C85A4B58}.Release|Win32.Build.0 = Release|Win32
+		{5FA2B65E-F3A5-475D-AF3F-554A8A631037}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5FA2B65E-F3A5-475D-AF3F-554A8A631037}.Debug|Win32.Build.0 = Debug|Win32
+		{5FA2B65E-F3A5-475D-AF3F-554A8A631037}.Release|Win32.ActiveCfg = Release|Win32
+		{5FA2B65E-F3A5-475D-AF3F-554A8A631037}.Release|Win32.Build.0 = Release|Win32
+		{31110A9C-B2B8-4D08-8EC4-A0B1B6609CA9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{31110A9C-B2B8-4D08-8EC4-A0B1B6609CA9}.Debug|Win32.Build.0 = Debug|Win32
+		{31110A9C-B2B8-4D08-8EC4-A0B1B6609CA9}.Release|Win32.ActiveCfg = Release|Win32
+		{31110A9C-B2B8-4D08-8EC4-A0B1B6609CA9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

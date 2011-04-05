@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\archverse_core\archverse_core_state.h" />
+    <ClInclude Include="inc\archverse_core\behaviors\council_behaviors.h" />
+    <ClInclude Include="inc\archverse_core\behaviors\diplomatic_message_behaviors.h" />
+    <ClInclude Include="inc\archverse_core\behaviors\player_behaviors.h" />
+    <ClInclude Include="inc\archverse_core\containers\action_list.h" />
+    <ClInclude Include="inc\archverse_core\containers\action_table.h" />
+    <ClInclude Include="inc\archverse_core\containers\admiral_table.h" />
+    <ClInclude Include="inc\archverse_core\containers\admission_request_table.h" />
+    <ClInclude Include="inc\archverse_core\containers\council_table.h" />
+    <ClInclude Include="inc\archverse_core\containers\game_event_table.h" />
+    <ClInclude Include="inc\archverse_core\containers\government_table.h" />
+    <ClInclude Include="inc\archverse_core\containers\diplomatic_message_table.h" />
+    <ClInclude Include="inc\archverse_core\containers\news_table.h" />
+    <ClInclude Include="inc\archverse_core\containers\player_table.h" />
+    <ClInclude Include="inc\archverse_core\containers\prerequisite_list.h" />
+    <ClInclude Include="inc\archverse_core\containers\prerequisite_table.h" />
+    <ClInclude Include="inc\archverse_core\containers\project_table.h" />
+    <ClInclude Include="inc\archverse_core\containers\race_table.h" />
+    <ClInclude Include="inc\archverse_core\containers\region_table.h" />
+    <ClInclude Include="inc\archverse_core\containers\relationship_table.h" />
+    <ClInclude Include="inc\archverse_core\containers\tech_list.h" />
+    <ClInclude Include="inc\archverse_core\containers\tech_table.h" />
+    <ClInclude Include="inc\archverse_core\containers\territory_table.h" />
+    <ClInclude Include="inc\archverse_core\containers\user_account_table.h" />
+    <ClInclude Include="inc\archverse_core\data_access\basic_entity_list.h" />
+    <ClInclude Include="inc\archverse_core\data_access\basic_entity_table.h" />
+    <ClInclude Include="inc\archverse_core\data_access\binary_serialization.h" />
+    <ClInclude Include="inc\archverse_core\data_access\common_sequence_types.h" />
+    <ClInclude Include="inc\archverse_core\data_access\database_core.h" />
+    <ClInclude Include="inc\archverse_core\data_access\database_iterator.h" />
+    <ClInclude Include="inc\archverse_core\data_access\database_sequence.h" />
+    <ClInclude Include="inc\archverse_core\data_access\index_helper.h" />
+    <ClInclude Include="inc\archverse_core\data_access\in_memory_database.h" />
+    <ClInclude Include="inc\archverse_core\data_access\reflection_metadata.h" />
+    <ClInclude Include="inc\archverse_core\data_access\secondary_index_mapper.h" />
+    <ClInclude Include="inc\archverse_core\structures\ability.h" />
+    <ClInclude Include="inc\archverse_core\structures\action.h" />
+    <ClInclude Include="inc\archverse_core\structures\admiral.h" />
+    <ClInclude Include="inc\archverse_core\structures\admission_request.h" />
+    <ClInclude Include="inc\archverse_core\structures\attribute.h" />
+    <ClInclude Include="inc\archverse_core\structures\control_model.h" />
+    <ClInclude Include="inc\archverse_core\structures\council.h" />
+    <ClInclude Include="inc\archverse_core\structures\game_event.h" />
+    <ClInclude Include="inc\archverse_core\structures\government.h" />
+    <ClInclude Include="inc\archverse_core\structures\diplomatic_message.h" />
+    <ClInclude Include="inc\archverse_core\structures\news.h" />
+    <ClInclude Include="inc\archverse_core\structures\player.h" />
+    <ClInclude Include="inc\archverse_core\structures\prerequisite.h" />
+    <ClInclude Include="inc\archverse_core\structures\project.h" />
+    <ClInclude Include="inc\archverse_core\structures\race.h" />
+    <ClInclude Include="inc\archverse_core\structures\region.h" />
+    <ClInclude Include="inc\archverse_core\structures\relationship.h" />
+    <ClInclude Include="inc\archverse_core\structures\tech.h" />
+    <ClInclude Include="inc\archverse_core\structures\territory.h" />
+    <ClInclude Include="inc\archverse_core\structures\user_account.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\archverse_core_state.cpp" />
+    <ClCompile Include="src\containers\admission_request_table.cpp" />
+    <ClCompile Include="src\containers\council_table.cpp" />
+    <ClCompile Include="src\containers\diplomatic_message_table.cpp" />
+    <ClCompile Include="src\containers\game_event_table.cpp" />
+    <ClCompile Include="src\containers\news_table.cpp" />
+    <ClCompile Include="src\containers\player_table.cpp" />
+    <ClCompile Include="src\containers\region_table.cpp" />
+    <ClCompile Include="src\containers\relationship_table.cpp" />
+    <ClCompile Include="src\containers\territory_table.cpp" />
+    <ClCompile Include="src\containers\user_account_table.cpp" />
+    <ClCompile Include="src\structures\council.cpp" />
+    <ClCompile Include="src\structures\game_event.cpp" />
+    <ClCompile Include="src\structures\player.cpp" />
+    <ClCompile Include="src\structures\prerequisite.cpp" />
+    <ClCompile Include="src\structures\region.cpp" />
+    <ClCompile Include="src\structures\territory.cpp" />
+    <ClCompile Include="src\structures\user_account.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ED91BC1B-C065-419D-B6DD-46A9C85A4B58}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>archverse_core</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(ProjectDir)\inc\;$(USERPROFILE)\cpp-libs\boost-headers;$(USERPROFILE)\cpp-libs\bdb\db;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(ProjectDir)\inc\;$(USERPROFILE)\cpp-libs\boost-headers;$(USERPROFILE)\cpp-libs\bdb\db;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4244;4482</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4244</DisableSpecificWarnings>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

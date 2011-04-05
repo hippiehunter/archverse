@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{f296ee8d-2386-43eb-876c-50d9da86d11d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\archverse_core">
+      <UniqueIdentifier>{688a7e76-711a-4a99-8ca9-a2a909ec0bd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\archverse_core\behaviors">
+      <UniqueIdentifier>{6a0b3c03-1295-47a3-ad7d-60ab2e385ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\archverse_core\containers">
+      <UniqueIdentifier>{89a47f1f-b532-4381-8845-3e63ed40d51a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\archverse_core\data_access">
+      <UniqueIdentifier>{1d873350-85d8-4abe-acaf-380333c9de8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\archverse_core\structures">
+      <UniqueIdentifier>{87b46a14-cc40-4a22-adea-3658fc46aad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{acc44203-1132-4eb6-afa3-6d5aee0665cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\structures">
+      <UniqueIdentifier>{b467585d-76dd-4553-a085-9d26ca02744a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\containers">
+      <UniqueIdentifier>{c7ea1809-fcfa-4b0f-9b4e-738552614ce0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\archverse_core\archverse_core_state.h">
+      <Filter>inc\archverse_core</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\containers\action_list.h">
+      <Filter>inc\archverse_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\containers\action_table.h">
+      <Filter>inc\archverse_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\containers\admiral_table.h">
+      <Filter>inc\archverse_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\containers\admission_request_table.h">
+      <Filter>inc\archverse_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\containers\council_table.h">
+      <Filter>inc\archverse_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\containers\government_table.h">
+      <Filter>inc\archverse_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\containers\news_table.h">
+      <Filter>inc\archverse_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\containers\player_table.h">
+      <Filter>inc\archverse_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\containers\prerequisite_table.h">
+      <Filter>inc\archverse_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\containers\project_table.h">
+      <Filter>inc\archverse_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\containers\race_table.h">
+      <Filter>inc\archverse_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\containers\region_table.h">
+      <Filter>inc\archverse_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\containers\relationship_table.h">
+      <Filter>inc\archverse_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\containers\tech_table.h">
+      <Filter>inc\archverse_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\containers\territory_table.h">
+      <Filter>inc\archverse_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\containers\user_account_table.h">
+      <Filter>inc\archverse_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\data_access\basic_entity_list.h">
+      <Filter>inc\archverse_core\data_access</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\data_access\basic_entity_table.h">
+      <Filter>inc\archverse_core\data_access</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\data_access\binary_serialization.h">
+      <Filter>inc\archverse_core\data_access</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\data_access\database_core.h">
+      <Filter>inc\archverse_core\data_access</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\data_access\reflection_metadata.h">
+      <Filter>inc\archverse_core\data_access</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\structures\ability.h">
+      <Filter>inc\archverse_core\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\structures\action.h">
+      <Filter>inc\archverse_core\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\structures\admiral.h">
+      <Filter>inc\archverse_core\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\structures\admission_request.h">
+      <Filter>inc\archverse_core\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\structures\attribute.h">
+      <Filter>inc\archverse_core\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\structures\control_model.h">
+      <Filter>inc\archverse_core\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\structures\council.h">
+      <Filter>inc\archverse_core\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\structures\government.h">
+      <Filter>inc\archverse_core\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\structures\news.h">
+      <Filter>inc\archverse_core\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\structures\player.h">
+      <Filter>inc\archverse_core\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\structures\prerequisite.h">
+      <Filter>inc\archverse_core\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\structures\project.h">
+      <Filter>inc\archverse_core\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\structures\race.h">
+      <Filter>inc\archverse_core\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\structures\region.h">
+      <Filter>inc\archverse_core\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\structures\relationship.h">
+      <Filter>inc\archverse_core\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\structures\tech.h">
+      <Filter>inc\archverse_core\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\structures\territory.h">
+      <Filter>inc\archverse_core\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\structures\user_account.h">
+      <Filter>inc\archverse_core\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\data_access\in_memory_database.h">
+      <Filter>inc\archverse_core\data_access</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\behaviors\player_behaviors.h">
+      <Filter>inc\archverse_core\behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\containers\diplomatic_message_table.h">
+      <Filter>inc\archverse_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\structures\diplomatic_message.h">
+      <Filter>inc\archverse_core\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\behaviors\diplomatic_message_behaviors.h">
+      <Filter>inc\archverse_core\behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\behaviors\council_behaviors.h">
+      <Filter>inc\archverse_core\behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\containers\game_event_table.h">
+      <Filter>inc\archverse_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\structures\game_event.h">
+      <Filter>inc\archverse_core\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\containers\prerequisite_list.h">
+      <Filter>inc\archverse_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\containers\tech_list.h">
+      <Filter>inc\archverse_core\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\data_access\secondary_index_mapper.h">
+      <Filter>inc\archverse_core\data_access</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\data_access\database_iterator.h">
+      <Filter>inc\archverse_core\data_access</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\data_access\index_helper.h">
+      <Filter>inc\archverse_core\data_access</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\data_access\database_sequence.h">
+      <Filter>inc\archverse_core\data_access</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\archverse_core\data_access\common_sequence_types.h">
+      <Filter>inc\archverse_core\data_access</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\structures\player.cpp">
+      <Filter>src\structures</Filter>
+    </ClCompile>
+    <ClCompile Include="src\archverse_core_state.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\containers\council_table.cpp">
+      <Filter>src\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\containers\player_table.cpp">
+      <Filter>src\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\containers\territory_table.cpp">
+      <Filter>src\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\containers\user_account_table.cpp">
+      <Filter>src\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\containers\relationship_table.cpp">
+      <Filter>src\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\structures\user_account.cpp">
+      <Filter>src\structures</Filter>
+    </ClCompile>
+    <ClCompile Include="src\containers\region_table.cpp">
+      <Filter>src\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\structures\region.cpp">
+      <Filter>src\structures</Filter>
+    </ClCompile>
+    <ClCompile Include="src\structures\council.cpp">
+      <Filter>src\structures</Filter>
+    </ClCompile>
+    <ClCompile Include="src\containers\game_event_table.cpp">
+      <Filter>src\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\containers\diplomatic_message_table.cpp">
+      <Filter>src\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\containers\news_table.cpp">
+      <Filter>src\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\containers\admission_request_table.cpp">
+      <Filter>src\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\structures\prerequisite.cpp">
+      <Filter>src\structures</Filter>
+    </ClCompile>
+    <ClCompile Include="src\structures\game_event.cpp">
+      <Filter>src\structures</Filter>
+    </ClCompile>
+    <ClCompile Include="src\structures\territory.cpp">
+      <Filter>src\structures</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
